@@ -23,7 +23,6 @@ nav {
 	text-align: center;
 	font-size: 32px;
 	width: 100%:;
-	padding: 10px 0;
 	margin: 30px 0;
 }
 
@@ -45,15 +44,6 @@ hr {
 	border-radius: 50%;
 }
 
-@media (max-width:600px) {
-	.main-img img {
-		display: block;
-		margin: auto;
-		width: 95%;
-		border-radius: 50%;
-	}
-}
-
 div#music-player {
 	text-align: center;
 	padding: 30px 0;
@@ -66,4 +56,17 @@ div#music-player p a{
 
 footer {
 	padding: 20px;
+}
+
+@media (max-width:600px) {
+	nav {
+		margin: 15px;
+	}
+
+	.main-img img {
+		display: block;
+		margin: auto;
+		width: 95%;
+		border-radius: 50%;
+	}
 }
