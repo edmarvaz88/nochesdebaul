@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: 'Overpass Mono', monospace;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 100;
+	margin: 0;
+	padding: 20px;
+}
+
+
+nav {
+	text-align: center;
+	font-size: 32px;
+	width: 100%:;
+	padding: 10px 0;
+	margin: 30px 0;
+}
+
+nav a{
+	padding: 0 15px;
+}
+
+hr {
+	width: 80%;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.main-img img {
+	display: block;
+	margin: auto;
+	width: 50%;
+	border-radius: 50%;
+}
+
+div#music-player {
+	text-align: center;
+	padding: 30px 0;
+}
+
+div#music-player p a{
+	color: #6495ED;
+
+}
+
+footer {
+	padding: 20px;
+}
