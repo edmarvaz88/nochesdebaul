@@ -34,8 +34,8 @@ nav a{
 hr {
 	width: 80%;
 	border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .main-img img {
@@ -43,6 +43,15 @@ hr {
 	margin: auto;
 	width: 50%;
 	border-radius: 50%;
+}
+
+@media (max-width:600px) {
+	.main-img img {
+		display: block;
+		margin: auto;
+		width: 95%;
+		border-radius: 50%;
+	}
 }
 
 div#music-player {
